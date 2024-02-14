@@ -56,7 +56,7 @@ function TopNav() {
               </Link>
               <Link to="/" className=" text-xl">
                 <span className="text-xl font-bold hidden lg:flex text-white">
-                  L<span className="text-accent">B</span>M
+                  L<span className="text-accent">B</span>N
                 </span>
               </Link>
             </div>
@@ -82,7 +82,7 @@ function TopNav() {
           </div>
           <div className="navbar-end space-x-10">
             <Link
-              to="/connexion"
+              to="/login"
               className="cursor cursor-pointer btn btn-sm btn-accent text-xs text-white"
             >
               <FontAwesomeIcon icon={faUser} /> Connexion
